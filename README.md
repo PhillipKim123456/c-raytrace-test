@@ -77,10 +77,10 @@ recreates it. The existing repository license applies.
 | `Home` | Reset camera and animation phase |
 | `Esc` | Close |
 
-The window remains responsive during rendering. Changes take effect at frame
-boundaries. Worker pools start on first use and remain available until exit.
-On native Windows, process mode uses CreateProcess and shared memory instead of
-POSIX fork.
+The window remains responsive during rendering. 
+Changes take effect at frameboundaries. 
+Worker pools start on first use and remain available until exit.
+On native Windows, process mode uses CreateProcess and shared memory instead of POSIX fork.
 
 ## Verification and benchmarks
 
